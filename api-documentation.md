@@ -1,6 +1,6 @@
-## 1. Criar Ideia
+# 1. Criar Ideia
 
-#### Request
+## Request
 ``` http
 POST /api/ideas
 Content-Type: application/json
@@ -13,7 +13,7 @@ Content-Type: application/json
     "userId": 1  // ID do usuário que está criando a ideia
 }
 ```
-### Response
+## Response
 ``` http
 201 Created
 Content-Type: application/json
@@ -29,12 +29,12 @@ Content-Type: application/json
     "userId": 1
 }
 ```
-## 2. Obter Ideias
-#### Request
+# 2. Obter Ideias
+## Request
 ``` http
 GET /api/ideas
 ```
-#### Response
+## Response
 ``` http
 200 OK
 Content-Type: application/json
@@ -62,8 +62,8 @@ Content-Type: application/json
     }
 ]
 ```
-## 3. Votar em uma Ideia
-#### Request
+# 3. Votar em uma Ideia
+## Request
 ``` http
 POST /api/votes
 Content-Type: application/json
@@ -74,7 +74,7 @@ Content-Type: application/json
     "isUpvote": true // true para upvote, false para downvote
 }
 ```
-#### Response
+# Response
 ```http
 201 Created
 Content-Type: application/json
@@ -87,8 +87,9 @@ Content-Type: application/json
     "createdAt": "2024-10-02T12:00:00Z"
 }
 ```
-	## 4. Comentar em uma Ideia
-#### Request
+	
+# 4. Comentar em uma Ideia
+## Request
 ``` http
 POST /api/comments
 Content-Type: application/json
@@ -99,7 +100,7 @@ Content-Type: application/json
     "content": "Acho que essa ideia é ótima!"
 }
 ```
-#### Response
+## Response
 ``` http
 201 Created
 Content-Type: application/json
@@ -112,7 +113,7 @@ Content-Type: application/json
     "createdAt": "2024-10-02T12:00:00Z"
 }
 ```
-## 5. Fixar uma Ideia
+# 5. Fixar uma Ideia
 ``` http
 PATCH /api/ideas/1/pin
 Content-Type: application/json
@@ -121,7 +122,7 @@ Content-Type: application/json
     "isPinned": true
 }
 ```
-#### Response
+## Response
 ``` http
 200 OK
 Content-Type: application/json
