@@ -31,7 +31,7 @@ O **Epicfy** é uma plataforma inovadora que melhora a interação entre usuári
    - A empresa recebe notificações por e-mail sempre que uma nova ideia é cadastrada.
 
 7. **Visualização de Ideias:**
-   - Usuários podem visualizar todas as ideias cadastradas, incluindo suas descrições, status e interações.
+   - Usuários podem visualizar todas as ideias cadastradas, incluindo suas descrições e interações.
 
 ## Requisitos Não-Funcionais
 
