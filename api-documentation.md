@@ -69,9 +69,9 @@ POST /api/votes
 Content-Type: application/json
 
 {
-    "userId": 1,   // ID do usuário que está votando
-    "ideaId": 1,   // ID da ideia que está sendo votada
-    "isUpvote": true // true para upvote, false para downvote
+    "userId": 1,
+    "ideaId": 1,
+    "isUpvote": true
 }
 ```
 # Response
@@ -95,8 +95,8 @@ POST /api/comments
 Content-Type: application/json
 
 {
-    "userId": 1,   // ID do usuário que está comentando
-    "ideaId": 1,   // ID da ideia que está sendo comentada
+    "userId": 1,
+    "ideaId": 1,
     "content": "Acho que essa ideia é ótima!"
 }
 ```
@@ -137,4 +137,4 @@ Content-Type: application/json
     "updatedAt": "2024-10-02T12:00:00Z",
     "userId": 1
 }
-```1
+```
