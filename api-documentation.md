@@ -10,7 +10,7 @@ Content-Type: application/json
     "description": "Adicionar um botão de compartilhamento nas redes sociais.",
     "status": "nova",
     "isPinned": false,
-    "userId": 1  // ID do usuário que está criando a ideia
+    "userId": 1
 }
 ```
 ## Response
