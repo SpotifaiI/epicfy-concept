@@ -100,40 +100,43 @@ flowchart TD
 ``` mermaid
 %%{init: {'theme': 'dark'}}%%
 erDiagram
-    Usuário {
-        int id PK "Identificador único"
-        string nome "Nome do usuário"
+    Idea {
+        int id PK "Identificador único da ideia"
+        string title "Título da ideia"
+        string description "Descrição da ideia"
+        string status "Status da ideia (e.g., nova, em desenvolvimento, concluída)"
+        boolean isPinned "Indica se a ideia está fixada no topo"
+        timestamp createdAt "Data e hora de criação da ideia"
+        timestamp updatedAt "Data e hora da última atualização da ideia"
+    }
+
+    User {
+        int id PK "Identificador único do usuário"
+        string username "Nome de usuário"
         string email "E-mail do usuário"
-        boolean isEmpresa "Indica se é funcionário da empresa"
+        boolean isCompany "Indica se o usuário é uma empresa"
+        timestamp createdAt "Data e hora de criação do usuário"
     }
 
-    Ideia {
-        int id PK "Identificador único"
-        string titulo "Título da ideia"
-        string descricao "Descrição detalhada da ideia"
-        string status "Status da ideia (nova, em desenvolvimento, concluída)"
-        boolean isPinned "Indica se a ideia está fixada"
-        int userId FK "Identificador do usuário que postou a ideia"
-    }
-
-    Voto {
-        int id PK "Identificador único"
+    Vote {
+        int id PK "Identificador único do voto"
         int userId FK "Identificador do usuário que votou"
         int ideaId FK "Identificador da ideia votada"
         boolean isUpvote "Indica se é um upvote (true) ou downvote (false)"
+        timestamp createdAt "Data e hora do voto"
     }
 
-    Comentário {
-        int id PK "Identificador único"
+    Comment {
+        int id PK "Identificador único do comentário"
         int userId FK "Identificador do usuário que comentou"
         int ideaId FK "Identificador da ideia comentada"
-        string conteudo "Conteúdo do comentário"
+        string content "Conteúdo do comentário"
+        timestamp createdAt "Data e hora do comentário"
     }
 
-    %% Relações
-    Usuário ||--o{ Ideia : posta
-    Usuário ||--o{ Voto : realiza
-    Usuário ||--o{ Comentário : escreve
-    Ideia ||--o{ Voto : recebe
-    Ideia ||--o{ Comentário : tem
+    %% Relationships
+    Idea ||--o{ Vote : "Recebe"
+    Idea ||--o{ Comment : "Possui"
+    User ||--o{ Vote : "Vota"
+    User ||--o{ Comment : "Comenta"
 ```
