@@ -1,7 +1,6 @@
 # Epicfy
 
-O **Epicfy** é uma plataforma inovadora que melhora a interação entre usuários e a empresa, possibilitando a coleta eficiente de ideias e feedbacks. Com um design modular e tecnologias modernas, o projeto está preparado para escalar e atender a uma base crescente de usuários.
-
+O **Epicfy** é uma plataforma desenvolvida para facilitar a coleta e o gerenciamento de sugestões de melhorias em software. O principal objetivo é promover a interação eficiente entre os usuários e a empresa, permitindo que os clientes compartilhem suas ideias e feedback, enquanto a empresa pode gerenciar e priorizar essas sugestões de forma eficaz.
 ## Membros
 
 - [x] Cristian Prochnow
