@@ -41,7 +41,7 @@ flowchart TD
     end
 
     %% Connections
-    FE -->|Submit Features, Improvements, Bug Fixes, Vote, Comment| API
+    FE -->|Submit Improvements, Bug Fixes, Vote, Comment| API
     FE -->|Pin Idea| PinCtrl
     API -->|Route to Controller| IdeasCtrl
     API -->|Route to Controller| VotesCtrl
