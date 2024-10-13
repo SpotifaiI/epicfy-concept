@@ -1,6 +1,7 @@
 # Epicfy
 
 O **Epicfy** é uma plataforma desenvolvida para facilitar a coleta e o gerenciamento de sugestões de melhorias em software. O principal objetivo é promover a interação eficiente entre os usuários e a empresa, permitindo que os clientes compartilhem suas ideias e feedback, enquanto a empresa pode gerenciar e priorizar essas sugestões de forma eficaz.
+
 ## Membros
 
 - [x] Cristian Prochnow
@@ -8,6 +9,12 @@ O **Epicfy** é uma plataforma desenvolvida para facilitar a coleta e o gerencia
 - [x] Lucas Willian de Souza Serpa 
 - [x] Marlon de Souza 
 - [x] Ryan Gabriel Mazzei Bromati
+
+## Repositórios
+
+- [x] [frontend](https://github.com/SpotifaiI/epicfy-frontend)
+- [x] [backend](https://github.com/SpotifaiI/epicfy-backend)
+- [x] [notification](https://github.com/SpotifaiI/epicfy-notification-service)
 
 ## Requisitos Funcionais
 
