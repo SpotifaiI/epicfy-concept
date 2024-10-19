@@ -118,7 +118,8 @@ erDiagram
 
     User {
         int id PK "Identificador único do usuário"
-        string username "Nome de usuário"
+        string username "Nome do usuário"
+        string password "Senha do usuário"
         string email "E-mail do usuário"
         boolean isCompany "Indica se o usuário é uma empresa"
         timestamp createdAt "Data e hora de criação do usuário"
