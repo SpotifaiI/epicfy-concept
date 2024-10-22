@@ -11,7 +11,7 @@ O **Epicfy** é uma plataforma desenvolvida para facilitar a coleta e o gerencia
 - [x] Ryan Gabriel Mazzei Bromati
 
 ## Jira
-* [Epicfy](https://cristian-prochnow-catolicasc.atlassian.net/jira/software/projects/EPICFY/boards/1?atlOrigin=eyJpIjoiYjk5ODNkZTNmYTVhNGJmN2E1NzYwODM2MjRmOTY5OGEiLCJwIjoiaiJ9)
+- [x] [Epicfy](https://cristian-prochnow-catolicasc.atlassian.net/jira/software/projects/EPICFY/boards/1?atlOrigin=eyJpIjoiYjk5ODNkZTNmYTVhNGJmN2E1NzYwODM2MjRmOTY5OGEiLCJwIjoiaiJ9)
 
 ## Repositórios
 
